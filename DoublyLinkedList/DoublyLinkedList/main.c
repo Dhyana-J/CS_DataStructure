@@ -10,6 +10,7 @@
 #include <stdlib.h>
 
 // ascending order doubly linked list
+// 양방에서 접근 가능하지만, 그만큼 포인터가 사용되므로 메모리 잡아먹음
 
 typedef struct Node {
     struct Node *prev;
